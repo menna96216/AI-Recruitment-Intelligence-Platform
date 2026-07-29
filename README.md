@@ -8,7 +8,7 @@
 | ---------------- | ------------------------------------ |
 | Full Name        | Menna Allah Walid                    |
 | Project Name     | AI Recruitment Intelligence Platform |
-| GitHub Username  | *(Your GitHub Username)*             |
+| GitHub Username  | https://github.com/menna96216        |
 | Challenge Batch  | June–July 2026                       |
 | Training Program | Large Language Models (LLMs) Program |
 | Organization     | **Edrak for AI**                     |
