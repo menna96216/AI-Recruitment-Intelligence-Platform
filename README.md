@@ -4,14 +4,14 @@
 
 ## 👤 Participant
 
-| Field            | Value                                |
+| Field | Value |
 | ---------------- | ------------------------------------ |
-| Full Name        | Menna Allah Walid                    |
-| Project Name     | AI Recruitment Intelligence Platform |
-| GitHub Username  | menna96216                           |
-| Challenge Batch  | June–July 2026                       |
+| Full Name | Menna Allah Walid |
+| Project Name | AI Recruitment Intelligence Platform |
+| GitHub Username | menna96216 |
+| Challenge Batch | June–July 2026 |
 | Training Program | Large Language Models (LLMs) Program |
-| Organization     | **Edrak for AI**                     |
+| Organization | **Edrak for AI** |
 
 **GitHub Profile:** https://github.com/menna96216
 
@@ -23,19 +23,19 @@ The **AI Recruitment Intelligence Platform** is an end-to-end intelligent hiring
 
 The platform assists HR teams throughout the recruitment lifecycle, from resume screening to the final hiring decision. It automatically parses resumes, evaluates ATS compatibility, analyzes job descriptions, identifies skill gaps, generates personalized technical interviews, evaluates candidate responses, creates comprehensive interview reports, recommends hiring decisions, and produces personalized career development plans.
 
-The platform is designed to reduce recruitment time, improve evaluation consistency, provide data-driven hiring recommendations, and deliver meaningful feedback to candidates.
+The platform also supports ranking multiple candidates for the same job position, enabling recruiters to compare applicants efficiently and make data-driven hiring decisions.
 
 ---
 
 # 🏗️ Project Architecture
 
-The platform follows a modular Multi-Agent AI architecture where each intelligent agent is responsible for a specific task in the recruitment pipeline.
+The platform follows a modular Multi-Agent AI architecture where each intelligent agent performs a dedicated task in the recruitment workflow.
 
-### Main AI Agents
+### AI Agents
 
 * Resume Parsing Agent
-* ATS Scoring Agent
 * Job Analysis Agent
+* ATS Scoring Agent
 * Interview Configuration Agent
 * Interview Question Generator Agent
 * Answer Evaluation Agent
@@ -54,11 +54,12 @@ The platform follows a modular Multi-Agent AI architecture where each intelligen
 * 🔍 Skill Gap Detection
 * 🧠 Retrieval-Augmented Generation (RAG)
 * 💬 AI Interview Configuration
-* ❓ Automatic Technical Interview Question Generation
+* ❓ AI Technical Interview Question Generation
 * ✅ AI Answer Evaluation
 * 📊 Comprehensive Interview Report Generation
 * 🎯 AI Hiring Recommendation
 * 📈 Personalized Career Development Plan
+* 🏆 Multi-Candidate Ranking
 * 👨‍💼 HR Dashboard
 * 👤 Candidate Dashboard
 * 🔐 Authentication System
@@ -156,10 +157,10 @@ Create a `.env` file and add the required environment variables.
 Example:
 
 ```text
-MONGODB_URI=your_connection_string
+MONGO_URI=your_connection_string
 ```
 
-If your project uses API keys, add them to the `.env` file as well.
+Also add any required API keys if your project uses external LLM services.
 
 ## 5. Run the Application
 
@@ -172,37 +173,49 @@ streamlit run app.py
 # 🚀 Usage
 
 1. Login to the platform.
-2. Upload a candidate resume (CV).
-3. Upload or create a Job Description.
-4. Automatically parse the resume.
-5. Generate an ATS compatibility report.
-6. Analyze candidate skills and identify skill gaps.
-7. Generate an interview configuration.
-8. Generate personalized technical interview questions.
-9. Conduct the interview.
-10. Evaluate candidate answers using AI.
-11. Generate a detailed interview report.
-12. Generate the final hiring recommendation.
-13. Generate a personalized career development plan.
+2. Access the Home Dashboard.
+3. Upload one or multiple candidate resumes.
+4. Upload or create a Job Description.
+5. Automatically parse resumes.
+6. Generate ATS compatibility reports.
+7. Rank multiple candidates based on AI evaluation.
+8. Select the best candidate.
+9. Generate interview configuration.
+10. Generate personalized technical interview questions.
+11. Conduct the interview.
+12. Evaluate candidate answers using AI.
+13. Generate a comprehensive interview report.
+14. Generate the final hiring recommendation.
+15. Generate a personalized career development plan.
+16. Store recruitment data in MongoDB.
 
 ---
 
 # 📸 Demo
 
-The platform demonstrates the complete AI-powered recruitment workflow, including:
+The following demonstration shows the complete AI-powered recruitment workflow.
 
-* Candidate Dashboard
-* HR Dashboard
+### Project Demo
+
+🎥 **Demo Video**
+
+*(Add your GitHub or YouTube video link here.)*
+
+The demonstration includes:
+
+* User Login
+* Home Dashboard
+* Multi-Candidate Ranking
 * Resume Parsing
 * ATS Analysis
-* Job Description Analysis
-* Interview Generation
-* AI Answer Evaluation
+* Candidate Comparison
+* HR Dashboard
+* AI Interview Generation
+* Candidate Answer Evaluation
 * Interview Report
-* Final Hiring Decision
+* Final Hiring Recommendation
 * Career Development Plan
-
-**Add screenshots, GIFs, or a demo video after deployment.**
+* MongoDB Database Storage
 
 ---
 
@@ -210,16 +223,18 @@ The platform demonstrates the complete AI-powered recruitment workflow, includin
 
 The platform successfully automates multiple stages of the recruitment lifecycle.
 
-### Key Capabilities
+### Key Outcomes
 
 * Automated Resume Parsing
 * AI-powered ATS Evaluation
 * Intelligent Skill Gap Analysis
+* AI-based Multi-Candidate Ranking
 * Personalized Technical Interview Generation
 * Automatic Candidate Answer Evaluation
 * Comprehensive Interview Reporting
 * AI-assisted Hiring Recommendation
 * Personalized Career Development Roadmap
+* MongoDB Data Storage
 * End-to-End Recruitment Automation
 
 ---
@@ -245,7 +260,7 @@ This project was developed as part of the **Tips Hindawi Challenge (June–July 
 
 **Tips Hindawi** is the internships department of **Edrak for AI**, and the challenge encourages participants to build real-world AI applications, apply practical engineering skills, and showcase their projects through GitHub.
 
-This project demonstrates the practical use of Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Multi-Agent AI systems, Prompt Engineering, and modern AI engineering techniques to solve real-world recruitment challenges.
+This project demonstrates the practical application of Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Multi-Agent AI systems, Prompt Engineering, and modern AI engineering techniques to solve real-world recruitment challenges.
 
 For more information about the challenge, training programs, and upcoming batches, visit the official **Tips Hindawi** website.
 
