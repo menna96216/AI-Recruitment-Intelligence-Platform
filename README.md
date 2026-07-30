@@ -199,7 +199,9 @@ The following demonstration shows the complete AI-powered recruitment workflow.
 
 🎥 **Demo Video**
 
-*(Add your GitHub or YouTube video link here.)*
+Click the image below to watch the complete project demonstration.
+
+[![AI Recruitment Intelligence Platform Demo](assets/demo_thumbnail.png)](https://drive.google.com/file/d/1Mq0EeQpdWJYnUA2yYcI3hoiIvxzhrcpU/view?usp=sharing)
 
 The demonstration includes:
 
