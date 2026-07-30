@@ -1,0 +1,212 @@
+[
+    {
+        "question_id": 1,
+        "question": "Explain the difference between supervised and unsupervised learning in the context of machine learning.",
+        "category": "Machine Learning Algorithms",
+        "difficulty": "Medium",
+        "expected_answer_points": [
+            {
+                "points": 2,
+                "subtopic": "Types of Learning"
+            },
+            {
+                "points": 2,
+                "subtopic": "Training Process"
+            }
+        ],
+        "answer": "Supervised learning uses labeled data, where the correct output is known during training. The model learns the relationship between inputs and outputs to make predictions on new data. It is commonly used for tasks such as classification and regression.\n\nUnsupervised learning uses unlabeled data, so the model identifies hidden patterns or structures without predefined answers. It is mainly used for clustering, dimensionality reduction, and anomaly detection."
+    },
+    {
+        "question_id": 2,
+        "question": "How would you implement transfer learning from pre-trained models like VGG16 or ResNet to improve your image recognition task?",
+        "category": "Deep Learning Techniques",
+        "difficulty": "Medium",
+        "expected_answer_points": [
+            {
+                "points": 3,
+                "subtopic": "Pre-trained Models"
+            },
+            {
+                "points": 3,
+                "subtopic": "Fine-tuning Layers"
+            },
+            {
+                "points": 2,
+                "subtopic": "Custom Training Loop"
+            }
+        ],
+        "answer": "I would start by loading a pre-trained model such as VGG16 or ResNet with ImageNet weights and remove the original classification layer. Then, I would add new output layers that match the number of classes in my dataset.\n\nNext, I would freeze the pre-trained layers and train only the new classification layers. After achieving stable performance, I would unfreeze some of the top layers and fine-tune them using a small learning rate to improve accuracy.\n\nFinally, I would evaluate the model on a validation set and use techniques such as data augmentation and early stopping to reduce overfitting and improve generalization."
+    },
+    {
+        "question_id": 3,
+        "question": "Describe how you would preprocess natural language text data before feeding it into a neural network for sentiment analysis.",
+        "category": "Natural Language Processing",
+        "difficulty": "Medium",
+        "expected_answer_points": [
+            {
+                "points": 2,
+                "subtopic": "Text Tokenization"
+            },
+            {
+                "points": 2,
+                "subtopic": "Stemming/Lemmatization"
+            },
+            {
+                "points": 2,
+                "subtopic": "Removing Stop Words"
+            },
+            {
+                "points": 2,
+                "subtopic": "Padding Sequences"
+            }
+        ],
+        "answer": "Before feeding text into a neural network, I would first clean the data by converting text to lowercase and removing unnecessary characters such as punctuation and extra spaces. Then, I would tokenize the text and convert the tokens into numerical representations using word embeddings or a pretrained tokenizer such as BERT.\n\nNext, I would pad or truncate all sequences to the same length so they can be processed in batches. Finally, I would split the data into training, validation, and test sets and feed the processed text into the neural network for sentiment classification.\n"
+    },
+    {
+        "question_id": 4,
+        "question": "What is hyperparameter tuning? How do you perform it for a deep learning model?",
+        "category": "Model Evaluation Metrics",
+        "difficulty": "Medium",
+        "expected_answer_points": [
+            {
+                "points": 2,
+                "subtopic": "Definition of Hyperparameters"
+            },
+            {
+                "points": 3,
+                "subtopic": "Grid Search Method"
+            },
+            {
+                "points": 2,
+                "subtopic": "Bayesian Optimization"
+            }
+        ],
+        "answer": "Hyperparameter tuning is the process of selecting the best values for model settings that are not learned during training, such as the learning rate, batch size, number of epochs, optimizer, and network architecture.\n\nTo perform hyperparameter tuning, I would define a range of values for these parameters, train the model using different combinations, and evaluate each one on a validation set. Techniques such as Grid Search, Random Search, or Bayesian Optimization can be used. Finally, I would choose the combination that provides the best validation performance while avoiding overfitting."
+    },
+    {
+        "question_id": 5,
+        "question": "Implement a simple convolutional neural network (CNN) for object detection using TensorFlow/Keras. Include data augmentation techniques.",
+        "category": "Computer Vision Applications",
+        "difficulty": "Medium",
+        "expected_answer_points": [
+            {
+                "points": 3,
+                "subtopic": "Building CNN Architecture"
+            },
+            {
+                "points": 3,
+                "subtopic": "Data Augmentation Techniques"
+            },
+            {
+                "points": 2,
+                "subtopic": "Model Compilation and Training"
+            }
+        ],
+        "answer": "I would build a CNN using convolutional, pooling, and fully connected layers to extract image features and perform object detection. Before training, I would apply data augmentation techniques such as random flipping, rotation, zooming, and brightness adjustment to increase the diversity of the training data and reduce overfitting.\n\nThe model would then be trained on the augmented dataset, validated on a separate validation set, and evaluated using metrics such as accuracy, precision, recall, and loss. Data augmentation helps improve the model's ability to generalize to new images."
+    },
+    {
+        "question_id": 6,
+        "question": "Explain the concept of 'dropout' in neural networks and its impact on overfitting.",
+        "category": "Advanced Libraries and Tools",
+        "difficulty": "Medium",
+        "expected_answer_points": [
+            {
+                "points": 2,
+                "subtopic": "Dropout Mechanism"
+            },
+            {
+                "points": 2,
+                "subtopic": "Impact on Overfitting"
+            },
+            {
+                "points": 2,
+                "subtopic": "Implementation Example"
+            }
+        ],
+        "answer": "Dropout is a regularization technique used to reduce overfitting in neural networks. During training, it randomly deactivates a percentage of neurons in each iteration, preventing the network from relying too heavily on specific neurons and encouraging it to learn more robust features.\n\nDuring testing, all neurons are used, but their outputs are appropriately scaled. This improves the model's ability to generalize to unseen data, reduces overfitting, and often leads to better performance on validation and test datasets.\n"
+    },
+    {
+        "question_id": 7,
+        "question": "How would you handle missing values in a dataset when performing feature engineering for a machine learning project?",
+        "category": "Data Processing and Cleaning",
+        "difficulty": "Medium",
+        "expected_answer_points": [
+            {
+                "points": 2,
+                "subtopic": "Identification Methods"
+            },
+            {
+                "points": 2,
+                "subtopic": "Imputation Techniques"
+            },
+            {
+                "points": 2,
+                "subtopic": "Handling Missing Values in Different Scenarios"
+            }
+        ],
+        "answer": "I would first analyze the dataset to understand the amount and pattern of missing values. If only a few records are missing, I may remove them. Otherwise, I would use appropriate imputation techniques, such as replacing missing numerical values with the mean or median and categorical values with the mode.\n\nI would also consider more advanced methods, such as model-based imputation, if the missing data is significant. Finally, I would evaluate the impact of the chosen method on model performance and ensure that the preprocessing steps are applied consistently to both the training and test data."
+    },
+    {
+        "question_id": 8,
+        "question": "Design a strategy for deploying a machine learning model on a cloud platform such as AWS or Google Cloud. Include considerations for scalability and cost-effectiveness.",
+        "category": "Deployment Strategies",
+        "difficulty": "Medium",
+        "expected_answer_points": [
+            {
+                "points": 3,
+                "subtopic": "Containerization (e.g., Docker)"
+            },
+            {
+                "points": 3,
+                "subtopic": "Cloud Services (AWS/GCP)"
+            },
+            {
+                "points": 2,
+                "subtopic": "Monitoring and Logging"
+            }
+        ],
+        "answer": "I would first train and validate the model locally, then package it using Docker and deploy it to a cloud service such as AWS or Google Cloud. The model can be exposed through a REST API so applications can send prediction requests.\n\nFor scalability, I would use auto-scaling to automatically increase or decrease the number of instances based on traffic. I would also use load balancing to distribute requests efficiently and monitor the service using cloud monitoring tools.\n\nFor cost-effectiveness, I would choose the appropriate instance type, use CPU instances unless GPUs are required, enable auto-scaling to avoid paying for idle resources, and optimize the model using techniques such as quantization or pruning to reduce inference time and resource usage. Regular monitoring of performance and cloud costs would help maintain an efficient deployment."
+    },
+    {
+        "question_id": 9,
+        "question": "Write a function that evaluates the performance of a binary classifier using precision-recall curve instead of ROC-AUC. Explain why this might be preferred in certain scenarios.",
+        "category": "Model Evaluation Metrics",
+        "difficulty": "Medium",
+        "expected_answer_points": [
+            {
+                "points": 3,
+                "subtopic": "Precision-Recall Curve"
+            },
+            {
+                "points": 3,
+                "subtopic": "ROC-AUC vs Precision-Recall"
+            },
+            {
+                "points": 2,
+                "subtopic": "Choosing Between Curves"
+            }
+        ],
+        "answer": "A binary classifier can be evaluated using the Precision-Recall (PR) curve, which shows the trade-off between precision and recall at different classification thresholds. The Area Under the Precision-Recall Curve (PR-AUC) summarizes the model's performance, with higher values indicating better results.\n\nThe Precision-Recall curve is often preferred over ROC-AUC when dealing with imbalanced datasets, where the positive class is much less frequent than the negative class. In such cases, ROC-AUC may appear overly optimistic because it includes true negatives, while the PR curve focuses on correctly identifying the positive class. Therefore, PR-AUC provides a more realistic evaluation for tasks such as fraud detection, medical diagnosis, and anomaly detection."
+    },
+    {
+        "question_id": 10,
+        "question": "Given a large dataset stored in a SQL database, describe how you would extract relevant features for a predictive modeling task without loading the entire dataset into memory.",
+        "category": "Data Processing and Cleaning",
+        "difficulty": "Medium",
+        "expected_answer_points": [
+            {
+                "points": 2,
+                "subtopic": "Sampling Techniques"
+            },
+            {
+                "points": 2,
+                "subtopic": "Efficient Joins and Subqueries"
+            },
+            {
+                "points": 2,
+                "subtopic": "Using Database Views or Materialized Views"
+            }
+        ],
+        "answer": "For a large SQL dataset, I would avoid loading all the data into memory by filtering and selecting only the required columns using SQL queries. I would extract the necessary features with SELECT statements, apply filtering using WHERE clauses, and perform aggregations or joins directly in the database when possible.\n\nThe data would be processed in batches (chunks) instead of loading it all at once. This allows feature engineering and preprocessing to be performed incrementally while keeping memory usage low. If needed, I would create indexes to speed up queries and use database-side operations for calculations before importing the processed data into Python for model training. This approach is efficient, scalable, and suitable for very large datasets."
+    }
+]

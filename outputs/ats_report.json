@@ -1,0 +1,26 @@
+{
+    "ats_score": 43.64,
+    "matched_required_skills": [
+        "Python",
+        "Deep Learning",
+        "Computer Vision",
+        "NLP",
+        "Model Evaluation",
+        "Git"
+    ],
+    "missing_required_skills": [
+        "Machine Learning",
+        "TensorFlow / PyTorch",
+        "Data Processing",
+        "SQL",
+        "Streamlit or API Deployment"
+    ],
+    "matched_preferred_skills": [],
+    "missing_preferred_skills": [
+        "Docker",
+        "FastAPI",
+        "LangChain",
+        "HuggingFace",
+        "MLOps Basics"
+    ]
+}

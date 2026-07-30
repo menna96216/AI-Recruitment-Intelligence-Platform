@@ -1,0 +1,199 @@
+{
+    "name": "Menna Allah Walid Ali Zaky",
+    "contact": {
+        "email": "mennawalid951@gmail.com",
+        "phone": "+20 128 918 6753",
+        "location": "Al Mansoura, Dakahlia, Egypt"
+    },
+    "summary": "Motivated Machine Learning Engineer with hands-on experience in Machine Learning, Deep Learning, NLP, and Computer Vision, building end-to-end AI solutions.",
+    "skills": [
+        "Python",
+        "C++",
+        "C#",
+        "TensorFlow",
+        "PyTorch",
+        "OpenCV",
+        "YOLOv8",
+        "MediaPipe",
+        "Streamlit",
+        "Azure AI",
+        "MLOps (MLflow & Hugging Face)",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Feature Engineering",
+        "Model Evaluation",
+        "Hyperparameter Tuning",
+        "ANN",
+        "CNN",
+        "Transfer Learning",
+        "Text Preprocessing",
+        "Tokenization",
+        "Embeddings",
+        "Transformers",
+        "Text Classification",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Scikit-learn",
+        "Git",
+        "GitHub",
+        "Power BI",
+        "MATLAB",
+        "AVR",
+        "Arduino",
+        "Real-time AI-based driver monitoring system",
+        "Interactive Streamlit dashboard",
+        "Random Forest model",
+        "Machine Learning models classification",
+        "UK road accident severity prediction"
+    ],
+    "experience": [
+        {
+            "company": "Digital Egypt Pioneers Initiative (DEPI) - Microsoft Machine Learning Engineer Track",
+            "start_date": "Nov 2025",
+            "end_date": "Present",
+            "description": "Covered advanced AI/ML topics including Prompt Engineering, Python for Data Science, Data Preprocessing & Visualization, Machine Learning, Deep Learning, NLP, Computer Vision, Azure AI, MLOps (MLflow & Hugging Face), and Capstone Project."
+        },
+        {
+            "company": "NTI Scholarship - Machine Learning for Data Analysis",
+            "start_date": "Aug 2025",
+            "end_date": "Sep 2025",
+            "description": "Hands-on training focused on Supervised & Unsupervised Learning, Model Evaluation, Deep Learning & Foundation Models, AI Frameworks, and cutting-edge AI applications."
+        }
+    ],
+    "projects": [
+        {
+            "title": "Driver Behavior Monitoring System (DMS)",
+            "technologies": [
+                "Python",
+                "YoloV8",
+                "Faster R-CNN",
+                "MediaPipe",
+                "OpenCV",
+                "Streamlit"
+            ],
+            "description": "Developed a real-time AI-based driver monitoring system for detecting seatbelt violations, mobile phone distraction, and driver drowsiness using computer vision and facial landmark analysis (EAR/MAR). Built an interactive Streamlit dashboard with real-time alerts and benchmarked YOLOv8 vs Faster R-CNN for detection performance."
+        },
+        {
+            "title": "Rain Prediction App",
+            "technologies": [
+                "Python",
+                "Scikit-learn",
+                "Streamlit"
+            ],
+            "description": "Random Forest model predicting next-day rainfall (270k+ records) with preprocessing, feature scaling, and an interactive Streamlit web app for real-time input."
+        },
+        {
+            "title": "Road Accident Severity Prediction",
+            "technologies": [
+                "Python",
+                "Machine Learning"
+            ],
+            "description": "ML models classifying UK road accident severity with data cleaning, feature engineering, and evaluation of multiple algorithms including Random Forest and Gradient Boosting."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Benha University - Faculty of Engineering",
+            "degree": "B.Sc. in Mechatronics Engineering",
+            "start_year": "2022",
+            "end_year": "2027",
+            "gpa": "3.5"
+        }
+    ],
+    "certificates": [
+        {
+            "name": "NTI - Machine Learning for Data Analysis",
+            "score": "98%"
+        },
+        {
+            "name": "NTI-Huawei Egyptian Talents Academy (ETA) - AI & Data Analysis Training",
+            "score": "98.5%"
+        },
+        {
+            "name": "SprintUp - AI and Machine Learning Foundations"
+        }
+    ],
+    "skills_original": [
+        "Python",
+        "C++",
+        "C#",
+        "TensorFlow",
+        "PyTorch",
+        "OpenCV",
+        "YOLOv8",
+        "MediaPipe",
+        "Streamlit",
+        "Azure AI",
+        "MLOps (MLflow & Hugging Face)",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Feature Engineering",
+        "Model Evaluation",
+        "Hyperparameter Tuning",
+        "ANN",
+        "CNN",
+        "Transfer Learning",
+        "Text Preprocessing",
+        "Tokenization",
+        "Embeddings",
+        "Transformers",
+        "Text Classification",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Scikit-learn",
+        "Git",
+        "GitHub",
+        "Power BI",
+        "MATLAB",
+        "AVR",
+        "Arduino",
+        "Real-time AI-based driver monitoring system",
+        "Interactive Streamlit dashboard",
+        "Random Forest model",
+        "Machine Learning models classification",
+        "UK road accident severity prediction"
+    ],
+    "skills_normalized": [
+        "embeddings",
+        "opencv",
+        "transformers",
+        "ann",
+        "pytorch",
+        "azure ai",
+        "supervised learning",
+        "avr",
+        "streamlit",
+        "yolov8",
+        "transfer learning",
+        "text classification",
+        "c++",
+        "text preprocessing",
+        "power bi",
+        "model evaluation",
+        "mlops (mlflow and hugging face)",
+        "matplotlib",
+        "random forest model",
+        "mediapipe",
+        "matlab",
+        "interactive streamlit dashboard",
+        "uk road accident severity prediction",
+        "machine learning models classification",
+        "scikit learn",
+        "git",
+        "hyperparameter tuning",
+        "tokenization",
+        "arduino",
+        "numpy",
+        "pandas",
+        "feature engineering",
+        "github",
+        "tensorflow",
+        "real time ai based driver monitoring system",
+        "cnn",
+        "python",
+        "c#",
+        "unsupervised learning"
+    ]
+}

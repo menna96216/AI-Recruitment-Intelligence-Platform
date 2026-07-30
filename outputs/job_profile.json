@@ -1,0 +1,29 @@
+{
+    "job_title": "Machine Learning Engineer",
+    "required_skills": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "TensorFlow / PyTorch",
+        "Computer Vision",
+        "NLP",
+        "Data Processing",
+        "Model Evaluation",
+        "SQL",
+        "Git",
+        "Streamlit or API Deployment"
+    ],
+    "preferred_skills": [
+        "Docker",
+        "FastAPI",
+        "LangChain",
+        "HuggingFace",
+        "MLOps Basics"
+    ],
+    "experience_requirements": [
+        "1-3 Years"
+    ],
+    "education_requirements": [
+        "Bachelor's degree in Computer Science, AI, Data Science, Engineering, or related field."
+    ]
+}

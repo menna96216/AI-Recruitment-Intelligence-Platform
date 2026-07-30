@@ -1,0 +1,18 @@
+{
+    "interview_type": "Technical Interview",
+    "interview_goal": "Evaluate candidate's technical proficiency and problem-solving abilities in machine learning, deep learning, and computer vision.",
+    "difficulty": "Medium",
+    "number_of_questions": 10,
+    "focus_areas": [
+        "Python programming",
+        "Machine Learning Algorithms",
+        "Deep Learning Techniques",
+        "Computer Vision Applications",
+        "Natural Language Processing",
+        "Model Evaluation Metrics",
+        "Data Processing and Cleaning",
+        "Database Integration",
+        "Deployment Strategies",
+        "Advanced Libraries and Tools"
+    ]
+}

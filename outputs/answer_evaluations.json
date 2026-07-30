@@ -1,0 +1,138 @@
+[
+    {
+        "question_id": 1,
+        "score": 7,
+        "feedback": "The candidate provided a clear explanation of both supervised and unsupervised learning but did not elaborate on their respective training processes.",
+        "strengths": [
+            "Detailed explanation of each type of learning",
+            "Correct identification of use cases for each type"
+        ],
+        "missing_points": [
+            "Lack of discussion on how the training process differs between supervised and unsupervised learning"
+        ],
+        "improvement_feedback": "Explaining the differences in training methods could further strengthen the response."
+    },
+    {
+        "question_id": 2,
+        "score": 7,
+        "feedback": "The candidate provided a clear and relevant approach for implementing transfer learning. However, they did not mention custom training loops (e.g., batch normalization, learning rate schedules) which are important aspects.",
+        "strengths": [
+            "Correctly identified the steps involved in transfer learning: loading a pre-trained model, modifying it, freezing layers, fine-tuning, and evaluating."
+        ],
+        "missing_points": [
+            "Lack of discussion on custom training loops and potential optimizations."
+        ],
+        "improvement_feedback": "Including details about custom training loops can enhance the depth and practicality of the response."
+    },
+    {
+        "question_id": 3,
+        "score": 7,
+        "feedback": "The candidate provided a good overview of preprocessing steps but missed some important subtopics like stemming/lemmatization and removing stop words.",
+        "strengths": [
+            "Correctly mentioned cleaning (lowercase conversion), tokenization, padding/truncation, and splitting the dataset."
+        ],
+        "missing_points": [
+            "Missing subtopics: stemming/lemmatization and removal of stop words."
+        ],
+        "improvement_feedback": "Including these additional steps will make the answer more comprehensive and thorough."
+    },
+    {
+        "question_id": 4,
+        "score": 7,
+        "feedback": "The candidate provided a clear definition of hyperparameter tuning and mentioned common techniques like Grid Search and Bayesian Optimization. However, they could have elaborated more on how to avoid overfitting.",
+        "strengths": [
+            "Clear explanation of hyperparameter tuning",
+            "Mentioned common methods (Grid Search, Bayesian Optimization)",
+            "Discussed evaluation on a validation set"
+        ],
+        "missing_points": [
+            "No mention of practical considerations like preventing overfitting"
+        ],
+        "improvement_feedback": "Consider discussing strategies to prevent overfitting when performing hyperparameter tuning."
+    },
+    {
+        "question_id": 5,
+        "score": 7,
+        "feedback": "The candidate provided a clear explanation of building a CNN architecture with convolutional, pooling, and fully connected layers for object detection. They also correctly mentioned applying data augmentation techniques like random flipping, rotation, zooming, and brightness adjustment. However, they did not mention model compilation or training details.",
+        "strengths": [
+            "Clear explanation of CNN architecture",
+            "Correct application of data augmentation techniques"
+        ],
+        "missing_points": [
+            "Details on model compilation and training process"
+        ],
+        "improvement_feedback": "Including specifics about how to compile and train the model could further enhance the answer."
+    },
+    {
+        "question_id": 6,
+        "score": 7,
+        "feedback": "The candidate provided a clear explanation of dropout and its role in reducing overfitting. However, they did not mention the implementation example as expected.",
+        "strengths": [
+            "Correctly explained what dropout is and how it works during training."
+        ],
+        "missing_points": [
+            "Lack of information about how dropout affects the scaling of neuron outputs during testing."
+        ],
+        "improvement_feedback": "Including details about how dropout impacts output scaling during testing would strengthen the answer."
+    },
+    {
+        "question_id": 7,
+        "score": 7,
+        "feedback": "The candidate provides a good overview of handling missing values but could be more specific about different types of imputation techniques and their application.",
+        "strengths": [
+            "Identified potential strategies for dealing with missing values."
+        ],
+        "missing_points": [
+            "Detailed explanation of various imputation techniques (e.g., mean, median, mode).",
+            "Specific mention of handling missing values in different scenarios (e.g., small vs. large amounts of missing data)."
+        ],
+        "improvement_feedback": "Consider elaborating on how to choose between different imputation methods based on the nature of the data and the type of analysis being performed."
+    },
+    {
+        "question_id": 8,
+        "score": 7,
+        "feedback": "The candidate provided a good overview of the deployment process but missed some specific points like containerization with Docker, detailed consideration of cloud services, and more comprehensive monitoring strategies.",
+        "strengths": [
+            "Discussed training and validation of the model",
+            "Included details about exposing the model via a REST API",
+            "Addressed scalability by mentioning auto-scaling and load balancing",
+            "Considered cost-effectiveness with suggestions on choosing instance types and optimizing the model"
+        ],
+        "missing_points": [
+            "Lack of specific mention of containerization with Docker",
+            "Insufficient detail on how to use cloud services effectively",
+            "No discussion on advanced monitoring and logging solutions"
+        ],
+        "improvement_feedback": "To improve, the candidate should provide more concrete examples of containerization with Docker, discuss in-depth how to leverage AWS or GCP features for optimal performance and cost efficiency, and include strategies for comprehensive monitoring and logging."
+    },
+    {
+        "question_id": 9,
+        "score": 7,
+        "feedback": "The candidate provided a good explanation of the Precision-Recall curve and its use case but missed some details about the comparison with ROC-AUC and the specific scenario where PR-AUC is preferred.",
+        "strengths": [
+            "Correctly explained what the Precision-Recall curve is and how it differs from ROC-AUC",
+            "Provided a clear example of a scenario where PR-AUC is preferred (imbalanced dataset)"
+        ],
+        "missing_points": [
+            "Detailed comparison between ROC-AUC and PR-AUC",
+            "Specific examples or context for choosing one over the other"
+        ],
+        "improvement_feedback": "To improve, the candidate should provide a more detailed comparison between ROC-AUC and PR-AUC, including specific examples of when each metric would be more appropriate."
+    },
+    {
+        "question_id": 10,
+        "score": 7,
+        "feedback": "The candidate provided a good overview of techniques to handle large datasets efficiently but did not mention sampling techniques, efficient joins/subqueries, or materialized views as explicitly requested.",
+        "strengths": [
+            "Described methods to filter and select relevant data using SQL",
+            "Mentioned processing in chunks and incremental feature engineering",
+            "Suggested creating indexes and using database-side operations for efficiency"
+        ],
+        "missing_points": [
+            "Sampling Techniques",
+            "Efficient Joins/Subqueries",
+            "Using Database Views/Materialized Views"
+        ],
+        "improvement_feedback": "To improve, the candidate should include specific examples of sampling techniques, efficient join/subquery strategies, and the use of database views/materialized views."
+    }
+]
